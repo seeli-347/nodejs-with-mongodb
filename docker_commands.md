@@ -21,3 +21,15 @@ docker run -d \
 --net mongo-network \
 --name mongo-express \
 mongo-express
+
+## create database in mongo-express
+open mongo-express from browser
+
+    http://localhost:8081
+
+create `my-db` _db_ and `my-collection` _collection_ and _document_ with `{myid: 1, data: "some dynamic data loaded from db"}` in mongo-express
+    
+
+Access you nodejs application UI from browser
+
+    http://localhost:3000
